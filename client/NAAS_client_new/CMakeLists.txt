@@ -8,8 +8,9 @@ include_directories(include)
 file (GLOB SRCS
         "src/*.cpp"
         )
+
 file (GLOB HDRS
         "include/*.h"
         )
 
-add_executable(client main.cpp ${SRCS} ${HDRS} СlassMediator.cpp СlassMediator.h)
+add_executable(client main.cpp ${SRCS} ${HDRS})

@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/Interface.h
-iostream
--
-cstring
--
+../include/Mediator.h
 string
 -
-NetWork.h
-../include/NetWork.h
 
 ../include/NetWork.h
 sys/socket.h
@@ -23,13 +17,15 @@ netinet/in.h
 -
 arpa/inet.h
 -
-
-../include/VPNNet.h
+cstring
+-
 string
 -
-unistd.h
--
-csignal
+Mediator.h
+../include/Mediator.h
+
+/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.cpp
+sys/socket.h
 -
 netinet/in.h
 -
@@ -37,20 +33,6 @@ arpa/inet.h
 -
 iostream
 -
-cstring
--
-sstream
--
 NetWork.h
-../include/NetWork.h
-
-/home/sanchez/CLionProjects/NAAS_client_new/main.cpp
-iostream
--
-NetWork.h
-/home/sanchez/CLionProjects/NAAS_client_new/NetWork.h
-VPNNet.h
-/home/sanchez/CLionProjects/NAAS_client_new/VPNNet.h
-Interface.h
-/home/sanchez/CLionProjects/NAAS_client_new/Interface.h
+/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.h
 

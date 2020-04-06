@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sanchez/CLionProjects/NAAS_client_new/include 
+CXX_INCLUDES = -I/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/include 
 

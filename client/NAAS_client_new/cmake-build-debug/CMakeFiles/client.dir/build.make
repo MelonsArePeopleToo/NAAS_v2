@@ -43,10 +43,10 @@ RM = /home/sanchez/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sanchez/CLionProjects/NAAS_client_new
+CMAKE_SOURCE_DIR = /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -59,88 +59,103 @@ include CMakeFiles/client.dir/flags.make
 
 CMakeFiles/client.dir/main.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/main.cpp.o -c /home/sanchez/CLionProjects/NAAS_client_new/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/main.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/main.cpp
 
 CMakeFiles/client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/CLionProjects/NAAS_client_new/main.cpp > CMakeFiles/client.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/main.cpp > CMakeFiles/client.dir/main.cpp.i
 
 CMakeFiles/client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/CLionProjects/NAAS_client_new/main.cpp -o CMakeFiles/client.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/main.cpp -o CMakeFiles/client.dir/main.cpp.s
+
+CMakeFiles/client.dir/src/ConcreteMediator.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/ConcreteMediator.cpp.o: ../src/ConcreteMediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/src/ConcreteMediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/ConcreteMediator.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/ConcreteMediator.cpp
+
+CMakeFiles/client.dir/src/ConcreteMediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/ConcreteMediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/ConcreteMediator.cpp > CMakeFiles/client.dir/src/ConcreteMediator.cpp.i
+
+CMakeFiles/client.dir/src/ConcreteMediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/ConcreteMediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/ConcreteMediator.cpp -o CMakeFiles/client.dir/src/ConcreteMediator.cpp.s
 
 CMakeFiles/client.dir/src/Interface.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/Interface.cpp.o: ../src/Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/src/Interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Interface.cpp.o -c /home/sanchez/CLionProjects/NAAS_client_new/src/Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/src/Interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Interface.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Interface.cpp
 
 CMakeFiles/client.dir/src/Interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/CLionProjects/NAAS_client_new/src/Interface.cpp > CMakeFiles/client.dir/src/Interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Interface.cpp > CMakeFiles/client.dir/src/Interface.cpp.i
 
 CMakeFiles/client.dir/src/Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/CLionProjects/NAAS_client_new/src/Interface.cpp -o CMakeFiles/client.dir/src/Interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Interface.cpp -o CMakeFiles/client.dir/src/Interface.cpp.s
+
+CMakeFiles/client.dir/src/Mediator.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/Mediator.cpp.o: ../src/Mediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/src/Mediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/Mediator.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Mediator.cpp
+
+CMakeFiles/client.dir/src/Mediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/Mediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Mediator.cpp > CMakeFiles/client.dir/src/Mediator.cpp.i
+
+CMakeFiles/client.dir/src/Mediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/Mediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Mediator.cpp -o CMakeFiles/client.dir/src/Mediator.cpp.s
 
 CMakeFiles/client.dir/src/NetWork.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/NetWork.cpp.o: ../src/NetWork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/src/NetWork.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/NetWork.cpp.o -c /home/sanchez/CLionProjects/NAAS_client_new/src/NetWork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/src/NetWork.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/NetWork.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.cpp
 
 CMakeFiles/client.dir/src/NetWork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/NetWork.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/CLionProjects/NAAS_client_new/src/NetWork.cpp > CMakeFiles/client.dir/src/NetWork.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.cpp > CMakeFiles/client.dir/src/NetWork.cpp.i
 
 CMakeFiles/client.dir/src/NetWork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/NetWork.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/CLionProjects/NAAS_client_new/src/NetWork.cpp -o CMakeFiles/client.dir/src/NetWork.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.cpp -o CMakeFiles/client.dir/src/NetWork.cpp.s
 
 CMakeFiles/client.dir/src/VPNNet.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/src/VPNNet.cpp.o: ../src/VPNNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/src/VPNNet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/VPNNet.cpp.o -c /home/sanchez/CLionProjects/NAAS_client_new/src/VPNNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/client.dir/src/VPNNet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/VPNNet.cpp.o -c /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/VPNNet.cpp
 
 CMakeFiles/client.dir/src/VPNNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/VPNNet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/CLionProjects/NAAS_client_new/src/VPNNet.cpp > CMakeFiles/client.dir/src/VPNNet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/VPNNet.cpp > CMakeFiles/client.dir/src/VPNNet.cpp.i
 
 CMakeFiles/client.dir/src/VPNNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/VPNNet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/CLionProjects/NAAS_client_new/src/VPNNet.cpp -o CMakeFiles/client.dir/src/VPNNet.cpp.s
-
-CMakeFiles/client.dir/СlassMediator.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/СlassMediator.cpp.o: ../СlassMediator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/СlassMediator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/СlassMediator.cpp.o -c /home/sanchez/CLionProjects/NAAS_client_new/СlassMediator.cpp
-
-CMakeFiles/client.dir/СlassMediator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/СlassMediator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanchez/CLionProjects/NAAS_client_new/СlassMediator.cpp > CMakeFiles/client.dir/СlassMediator.cpp.i
-
-CMakeFiles/client.dir/СlassMediator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/СlassMediator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/CLionProjects/NAAS_client_new/СlassMediator.cpp -o CMakeFiles/client.dir/СlassMediator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/VPNNet.cpp -o CMakeFiles/client.dir/src/VPNNet.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
 "CMakeFiles/client.dir/main.cpp.o" \
+"CMakeFiles/client.dir/src/ConcreteMediator.cpp.o" \
 "CMakeFiles/client.dir/src/Interface.cpp.o" \
+"CMakeFiles/client.dir/src/Mediator.cpp.o" \
 "CMakeFiles/client.dir/src/NetWork.cpp.o" \
-"CMakeFiles/client.dir/src/VPNNet.cpp.o" \
-"CMakeFiles/client.dir/СlassMediator.cpp.o"
+"CMakeFiles/client.dir/src/VPNNet.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
 client: CMakeFiles/client.dir/main.cpp.o
+client: CMakeFiles/client.dir/src/ConcreteMediator.cpp.o
 client: CMakeFiles/client.dir/src/Interface.cpp.o
+client: CMakeFiles/client.dir/src/Mediator.cpp.o
 client: CMakeFiles/client.dir/src/NetWork.cpp.o
 client: CMakeFiles/client.dir/src/VPNNet.cpp.o
-client: CMakeFiles/client.dir/СlassMediator.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +168,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sanchez/CLionProjects/NAAS_client_new /home/sanchez/CLionProjects/NAAS_client_new /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

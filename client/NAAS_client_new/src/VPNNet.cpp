@@ -57,30 +57,30 @@ int VPNNet::tunAlloc(std::string &dev, int flags)
     return fd;
 }
 
-void termHandler(int signal)
-{
-    VPNNet vpnNet;
-    int s = socket(AF_INET, SOCK_STREAM, 0);
-    in_addr in;
-    int res = inet_aton(vpnNet.SERVER_ADDR, &in);
-    if (!res) {
-        exit;
-    }
-
-    sockaddr_in sockaddr_ = {
-            .sin_family = AF_INET,
-            .sin_port = htons(vpnNet.SERVER_PORT),
-            .sin_addr = in
-    };
-    connect(s, (sockaddr*) &sockaddr_, sizeof(sockaddr_));
-    send(s, (void *)"disconnect", strlen("disconnect"), 0);
-
-    close(vpnNet.sockFd);
-    close(vpnNet.tapFd);
-    vpnNet.deleteTun();
-
-    exit(EXIT_SUCCESS);
-}
+//void termHandler(int signal)
+//{
+//    VPNNet vpnNet;
+//    int s = socket(AF_INET, SOCK_STREAM, 0);
+//    in_addr in;
+//    int res = inet_aton(vpnNet.SERVER_ADDR, &in);
+//    if (!res) {
+//        exit;
+//    }
+//
+//    sockaddr_in sockaddr_ = {
+//            .sin_family = AF_INET,
+//            .sin_port = htons(vpnNet.SERVER_PORT),
+//            .sin_addr = in
+//    };
+//    connect(s, (sockaddr*) &sockaddr_, sizeof(sockaddr_));
+//    send(s, (void *)"disconnect", strlen("disconnect"), 0);
+//
+//    close(vpnNet.sockFd);
+//    close(vpnNet.tapFd);
+//    vpnNet.deleteTun();
+//
+//    exit(EXIT_SUCCESS);
+//}
 
 void VPNNet::createTun(const std::string &vip)
 {
@@ -112,9 +112,9 @@ int VPNNet::createDaemon() {
 
         printf("My pid is %i\n", getpid());
 
-        std::signal(SIGTERM, termHandler);
-
-        connectToServer("vpn_tun", SERVER_ADDR, this->sockFd, this->tapFd);
+//        std::signal(SIGTERM, termHandler);
+//
+//        connectToServer("vpn_tun", SERVER_ADDR, this->sockFd, this->tapFd);
 
         return 0;
     }

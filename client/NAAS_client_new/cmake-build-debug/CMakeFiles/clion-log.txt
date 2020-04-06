@@ -1,4 +1,4 @@
-/home/sanchez/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sanchez/CLionProjects/NAAS_client_new
+/home/sanchez/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug
+-- Build files have been written to: /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug

@@ -10,16 +10,16 @@
 #include <cstring>
 #include <string>
 
-#include "NetWork.h"
+#include "Mediator.h"
 
-class Interface
+class Interface : public BaseComponent
         {
 public:
-
     void talkToAuth ();
 
 private:
-    const int BUFF_SIZE = 4* 1024;
+//    const int BUFF_SIZE = 4* 1024;
+    std::string message;
 };
 
 

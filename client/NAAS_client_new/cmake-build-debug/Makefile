@@ -48,10 +48,10 @@ RM = /home/sanchez/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sanchez/CLionProjects/NAAS_client_new
+CMAKE_SOURCE_DIR = /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/ConcreteMediator.o: src/ConcreteMediator.cpp.o
+
+.PHONY : src/ConcreteMediator.o
+
+# target to build an object file
+src/ConcreteMediator.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/ConcreteMediator.cpp.o
+.PHONY : src/ConcreteMediator.cpp.o
+
+src/ConcreteMediator.i: src/ConcreteMediator.cpp.i
+
+.PHONY : src/ConcreteMediator.i
+
+# target to preprocess a source file
+src/ConcreteMediator.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/ConcreteMediator.cpp.i
+.PHONY : src/ConcreteMediator.cpp.i
+
+src/ConcreteMediator.s: src/ConcreteMediator.cpp.s
+
+.PHONY : src/ConcreteMediator.s
+
+# target to generate assembly for a file
+src/ConcreteMediator.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/ConcreteMediator.cpp.s
+.PHONY : src/ConcreteMediator.cpp.s
+
 src/Interface.o: src/Interface.cpp.o
 
 .PHONY : src/Interface.o
@@ -176,6 +203,33 @@ src/Interface.s: src/Interface.cpp.s
 src/Interface.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Interface.cpp.s
 .PHONY : src/Interface.cpp.s
+
+src/Mediator.o: src/Mediator.cpp.o
+
+.PHONY : src/Mediator.o
+
+# target to build an object file
+src/Mediator.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Mediator.cpp.o
+.PHONY : src/Mediator.cpp.o
+
+src/Mediator.i: src/Mediator.cpp.i
+
+.PHONY : src/Mediator.i
+
+# target to preprocess a source file
+src/Mediator.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Mediator.cpp.i
+.PHONY : src/Mediator.cpp.i
+
+src/Mediator.s: src/Mediator.cpp.s
+
+.PHONY : src/Mediator.s
+
+# target to generate assembly for a file
+src/Mediator.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/Mediator.cpp.s
+.PHONY : src/Mediator.cpp.s
 
 src/NetWork.o: src/NetWork.cpp.o
 
@@ -231,33 +285,6 @@ src/VPNNet.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/VPNNet.cpp.s
 .PHONY : src/VPNNet.cpp.s
 
-СlassMediator.o: СlassMediator.cpp.o
-
-.PHONY : СlassMediator.o
-
-# target to build an object file
-СlassMediator.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/СlassMediator.cpp.o
-.PHONY : СlassMediator.cpp.o
-
-СlassMediator.i: СlassMediator.cpp.i
-
-.PHONY : СlassMediator.i
-
-# target to preprocess a source file
-СlassMediator.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/СlassMediator.cpp.i
-.PHONY : СlassMediator.cpp.i
-
-СlassMediator.s: СlassMediator.cpp.s
-
-.PHONY : СlassMediator.s
-
-# target to generate assembly for a file
-СlassMediator.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/СlassMediator.cpp.s
-.PHONY : СlassMediator.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,18 +297,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/ConcreteMediator.o"
+	@echo "... src/ConcreteMediator.i"
+	@echo "... src/ConcreteMediator.s"
 	@echo "... src/Interface.o"
 	@echo "... src/Interface.i"
 	@echo "... src/Interface.s"
+	@echo "... src/Mediator.o"
+	@echo "... src/Mediator.i"
+	@echo "... src/Mediator.s"
 	@echo "... src/NetWork.o"
 	@echo "... src/NetWork.i"
 	@echo "... src/NetWork.s"
 	@echo "... src/VPNNet.o"
 	@echo "... src/VPNNet.i"
 	@echo "... src/VPNNet.s"
-	@echo "... СlassMediator.o"
-	@echo "... СlassMediator.i"
-	@echo "... СlassMediator.s"
 .PHONY : help
 
 

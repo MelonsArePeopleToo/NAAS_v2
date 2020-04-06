@@ -4,6 +4,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <iostream>
 
 #include "NetWork.h"
 
@@ -32,4 +33,13 @@ int NetWork::connectToServer()
 
 void NetWork::getVIP() {
 
+}
+
+void NetWork::recv() {
+
+}
+
+void NetWork::sendToServ(std::string message){
+    send (sock, (void *)message.c_str(), strlen(message.c_str()), 0);
+    std::cout<< message << " sended  "<< "Mediator is alive!!!!!!!!!" << std::endl;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sanchez/CLionProjects/NAAS_client_new
+# Install script for directory: /home/sanchez/WORK/NAAS_v2/client/NAAS_client_new
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sanchez/CLionProjects/NAAS_client_new/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
