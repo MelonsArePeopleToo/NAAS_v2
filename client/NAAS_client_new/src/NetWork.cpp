@@ -1,11 +1,9 @@
 //
 // Created by sanchez on 31.03.2020.
 //
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <iostream>
 
+#include <sstream>
+#include <iostream>
 #include "NetWork.h"
 
 void NetWork::getAddr(const char *SERVER_ADDR, const int &SERVER_PORT)
@@ -16,6 +14,8 @@ void NetWork::getAddr(const char *SERVER_ADDR, const int &SERVER_PORT)
 
 int NetWork::connectToServer()
 {
+    this->sock = socket(AF_INET, SOCK_STREAM, 0);
+
     in_addr addr;
     int res = inet_aton(this->SERVER_ADDR, &addr);
     if (!res) {
@@ -31,15 +31,29 @@ int NetWork::connectToServer()
     return  connect(sock, (sockaddr*) &sockaddr_, sizeof(sockaddr_));
 }
 
-void NetWork::getVIP() {
 
+void NetWork::recvFromServ()
+{
+    int recvBytes = recv(sock, buff, sizeof(buff), 0);
+
+    if (recvBytes > 0)
+    {
+        std::stringstream input (buff);
+        this->message = "";
+        input >> this->message;
+
+        this->mediator_->recvMessage(this, this->message);
+    }
 }
 
-void NetWork::recv() {
-
-}
-
-void NetWork::sendToServ(std::string message){
+void NetWork::sendToServ(std::string message_)
+{
+    this->message = message_;
     send (sock, (void *)message.c_str(), strlen(message.c_str()), 0);
-    std::cout<< message << " sended  "<< "Mediator is alive!!!!!!!!!" << std::endl;
+
+}
+
+void NetWork::closeSock()
+{
+    close(sock);
 }

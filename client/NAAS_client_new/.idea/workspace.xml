@@ -36,52 +36,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03b20c4-d7b2-48b2-b9c1-5e45b47ba0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NAAS_client_new.dir/src/NetWork.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/ConcreteMediator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/ConcreteMediator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/Interface.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/Interface.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/Mediator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/Mediator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/NetWork.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/NetWork.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/VPNNet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/client.dir/src/VPNNet.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NAAS_client_new.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NAAS_client_new.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/client" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ConcreteMediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ConcreteMediator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Interface.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Interface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Mediator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/NetWork.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/NetWork.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcreteMediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteMediator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NetWork.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetWork.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VPNNet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/VPNNet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/СlassMediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/СlassMediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Mediator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +117,8 @@
       <workItem from="1585685993335" duration="14717000" />
       <workItem from="1586183402478" duration="2765000" />
       <workItem from="1586192313902" duration="6823000" />
-      <workItem from="1586201658757" duration="425000" />
+      <workItem from="1586201658757" duration="950000" />
+      <workItem from="1586269006627" duration="11377000" />
     </task>
     <servers />
   </component>
@@ -155,61 +126,70 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="271" width="372" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586199473629">
-      <screen x="0" y="27" width="3840" height="1053" />
+    <state x="242" y="271" width="372" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586290678970">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="242" y="271" width="382" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1585847588382" />
     <state x="484" y="271" width="372" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3840.1053@0.27.3840.1053" timestamp="1586199473629" />
-    <state x="242" y="271" width="465" height="562" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585683818704" />
-    <state x="526" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586197438323">
-      <screen x="0" y="27" width="3840" height="1053" />
+    <state x="242" y="271" width="465" height="562" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586290678970" />
+    <state x="263" y="310" width="374" height="484" key="FileChooserDialogImpl" timestamp="1586273546589">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="263" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585849748554" />
     <state x="526" y="310" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1586197438323" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1586202084467">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="263" y="310" width="374" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586273546589" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1586292334835">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432713" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585685895206" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202084467" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1586202084467">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586292334835" />
+    <state width="1874" height="113" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1586292334835">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432712" />
-    <state width="914" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585685895205" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202084467" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1586202084467">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586292334835" />
+    <state width="1874" height="113" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607934" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1586292334835">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432712" />
-    <state width="914" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585685895205" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202084467" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1586202084467">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586292334835" />
+    <state width="1874" height="113" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607934" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1586292334835">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432713" />
-    <state width="914" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585685895206" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202084467" />
-    <state width="1874" height="113" key="GridCell.Tab.1.bottom" timestamp="1586202055510">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586292334835" />
+    <state width="1874" height="113" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state width="1874" height="438" key="GridCell.Tab.1.bottom" timestamp="1586285846955">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432715" />
-    <state width="1874" height="113" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202055510" />
-    <state width="1874" height="113" key="GridCell.Tab.1.center" timestamp="1586202055510">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="438" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586285846955" />
+    <state width="1874" height="113" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state width="1874" height="438" key="GridCell.Tab.1.center" timestamp="1586285846955">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432714" />
-    <state width="1874" height="113" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202055510" />
-    <state width="1874" height="113" key="GridCell.Tab.1.left" timestamp="1586202055510">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="438" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586285846955" />
+    <state width="1874" height="113" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state width="1874" height="438" key="GridCell.Tab.1.left" timestamp="1586285846955">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432714" />
-    <state width="1874" height="113" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202055510" />
-    <state width="1874" height="113" key="GridCell.Tab.1.right" timestamp="1586202055510">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="438" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586285846955" />
+    <state width="1874" height="113" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state width="1874" height="438" key="GridCell.Tab.1.right" timestamp="1586285846955">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="113" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585940432714" />
-    <state width="1874" height="113" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202055510" />
+    <state width="1874" height="438" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586285846955" />
+    <state width="1874" height="113" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586202607935" />
+    <state x="2536" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586269006160">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586269006160" />
     <state x="91" y="119" width="778" height="867" key="find.popup" timestamp="1585767645215">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

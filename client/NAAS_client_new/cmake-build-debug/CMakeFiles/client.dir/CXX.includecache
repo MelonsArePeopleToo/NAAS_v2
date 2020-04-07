@@ -6,16 +6,8 @@
 
 #IncludeRegexTransform: 
 
-../include/Mediator.h
-string
--
-
-../include/NetWork.h
-sys/socket.h
--
-netinet/in.h
--
-arpa/inet.h
+../include/Interface.h
+iostream
 -
 cstring
 -
@@ -24,15 +16,11 @@ string
 Mediator.h
 ../include/Mediator.h
 
-/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.cpp
-sys/socket.h
+../include/Mediator.h
+string
 -
-netinet/in.h
--
-arpa/inet.h
--
-iostream
--
-NetWork.h
-/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/NetWork.h
+
+/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Interface.cpp
+Interface.h
+/home/sanchez/WORK/NAAS_v2/client/NAAS_client_new/src/Interface.h
 

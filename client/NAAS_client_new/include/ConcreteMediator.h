@@ -22,6 +22,8 @@ public:
         this->interface_->setMediator(this);
     }
     void sendMessage (BaseComponent *sender,std::string message);
+    void recvMessage (BaseComponent *sender,std::string message);
+    void firstConnect (BaseComponent *sender,char *addr, int port);
 
 
 

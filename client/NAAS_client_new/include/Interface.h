@@ -15,11 +15,14 @@
 class Interface : public BaseComponent
         {
 public:
-    void talkToAuth ();
+    void talkToAuth();
+    void getMessage(std::string recvMessage);
+    void sendMessage ();
+
 
 private:
-//    const int BUFF_SIZE = 4* 1024;
     std::string message;
+
 };
 
 

@@ -13,7 +13,9 @@ class BaseComponent;
 class Mediator
         {
 public:
-    virtual void sendMessage(BaseComponent *sender,std::string message){};
+    virtual void sendMessage (BaseComponent *sender,std::string message) {};
+    virtual void recvMessage (BaseComponent *sender,std::string message) {};
+    virtual void firstConnect (BaseComponent *sender,char *addr, int port) {};
 };
 
 
